@@ -1,0 +1,5 @@
+Use these exact names:
+hero-students.jpg - UCU students in a natural conversation, portrait crop
+about-campus.jpg - students studying together at UCU, horizontal crop
+saving-group.jpg - students in a small group discussion, portrait crop
+Photos appear automatically when files with these names are present.

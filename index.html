@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Smart Pocket: approachable financial literacy guides and tools for university students in Uganda.">
+  <meta name="theme-color" content="#e7e8f3">
+  <title>Smart Pocket | Make money make sense</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT@9..144,500,20;9..144,600,20;9..144,700,20&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/content.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/groups.js" defer></script>
+  <script src="js/budget.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Smart Pocket home"><img class="brand-logo" src="assets/images/smart-pocket-logo.svg" alt="" width="52" height="52"><span>smart pocket<small>A better relationship with money starts here</small></span></a>
+      <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="nav-links" type="button">Menu <span aria-hidden="true">☰</span></button>
+      <div id="nav-links" class="nav-links">
+        <a href="#home" data-nav="home">Home</a>
+        <a href="#learn" data-nav="learn">Learn</a>
+        <a href="#about" data-nav="about">About</a>
+        <a href="#involved" data-nav="involved">Get involved</a>
+        <a href="#planner" class="nav-cta">Open budget planner <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero section-anchor">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          
+          <h1>Money can be <em>complicated.</em><br>Learning about it shouldn't be.</h1>
+          <p>Simple money lessons, practical tools and everyday tips made for campus life in Uganda. No big words. No pressure to have it all figured out.</p>
+          <div class="hero-actions"><a class="button button-pink" href="#learn">Explore the guides <span aria-hidden="true">↗</span></a><a class="text-link light-link" href="#about">Why this matters <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-footer"><div><strong>05</strong><span>short guides</span></div><div><strong>40</strong><span>daily money tips</span></div><div><strong>01</strong><span>simple budget planner</span></div></div>
+        </div>
+        <div class="hero-visual">
+          <!-- Replace this placeholder with assets/images/hero-students.jpg -->
+          <div class="image-placeholder hero-image" role="img" aria-label="Placeholder for a photo of UCU students talking on campus"><span class="placeholder-label">Add a campus photograph</span></div>
+          
+          
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"><svg viewBox="0 0 1440 115" preserveAspectRatio="none"><path d="M0 18 C220 18 230 52 490 52 C700 52 715 112 860 112 C1010 112 1040 35 1220 35 C1340 35 1390 40 1440 22 L1440 115 L0 115 Z" fill="#f9f7f2"/></svg></div>
+    </section>
+
+    <section class="tip-band"><div class="container tip-inner"><div class="tip-heading"><h2>Today's money tip<span class="pink-dot">.</span></h2></div><p id="tip-text" aria-live="polite">A little planning makes room for bigger things.</p><div class="tip-controls"><span id="tip-date"></span><button class="arrow-circle" id="next-tip" type="button" aria-label="See another tip">↗</button></div></div></section>
+
+    <section id="learn" class="section section-anchor"><div class="container"><div class="section-heading"><div><h2>Five guides. <em>Real-life money skills.</em></h2></div><p>Short enough for a study break, useful enough to come back to. Read online, take a quick check, or keep a PDF for later.</p></div><div class="guide-grid" id="guide-grid"></div></div></section>
+
+    <section class="quote-strip"><div class="container quote-layout"><span class="quote-mark">“</span><p>It's not about having lots of money. It's about knowing what to do with what you have.</p></div></section>
+
+    <section id="about" class="section about-section section-anchor"><div class="container about-grid"><div><h2>We learn a lot at university. <em>Money should be part of that.</em></h2><p class="lead">Your allowance, your first job, a tempting loan, that “urgent” mobile money message — financial decisions don't wait until graduation.</p><p>The choices you make with money during university can shape your options long after graduation.</p><div class="about-image image-placeholder" role="img" aria-label="Placeholder for a campus study scene"><span class="placeholder-label">Campus photograph</span></div></div><div class="questions-panel"><div class="accordion" id="about-accordion"><details open><summary><span>01</span> Why should I budget if my allowance is small?</summary><p>Because even a small amount has to cover real needs. Planning helps you spot patterns, prepare for essential costs and decide what matters most to you.</p></details><details><summary><span>02</span> Is saving only for people with jobs?</summary><p>No. Saving is a habit, not a salary requirement. A little set aside consistently can support a small goal or help with an unexpected expense.</p></details><details><summary><span>03</span> How do I know whether a money offer is safe?</summary><p>Slow down, read the terms, verify the source and be suspicious of pressure or promises that sound too good to be true. Never share secret account codes.</p></details><details><summary><span>04</span> Can I use the site without creating an account?</summary><p>Yes. You can read the guides and use the planner without logging in. The site does not save your budget to a server. Any external saving-group form will clearly be identified.</p></details></div></div></div></section>
+
+    <section id="planner" class="planner-section section-anchor">
+      <div class="container planner-layout">
+        <div class="planner-intro">
+          
+          <h2>A budget that looks like <em>your life.</em></h2>
+          <p>Plan a month using Ugandan shillings. Use suggested expenses like tuition, meals, transport or tithe, or add something of your own. Record what you actually spend and compare it with your plan.</p>
+          <p>Download your monthly budget when you finish.</p>
+          <div class="planner-decoration" aria-hidden="true"><span>UGX</span><strong>↗</strong></div>
+        </div>
+        <div class="planner-card">
+          <div class="planner-card-head"><h3>Your monthly budget.</h3><span>UGX only</span></div>
+          <div class="budget-month-line"><label for="budget-month">Month</label><input id="budget-month" type="month"><label for="income">Planned income (UGX)</label><input id="income" type="number" min="0" step="1000" inputmode="numeric" value="300000"></div>
+          <label for="income-actual" class="income-actual-label">Actual income (optional)</label><input id="income-actual" type="number" min="0" step="1000" inputmode="numeric" placeholder="What you actually received">
+          <div class="planner-head-row"><strong>Plan your categories</strong><button type="button" id="reset-categories" class="tiny-link">Restore suggestions</button></div>
+          
+          <div class="budget-column-labels"><span>Category</span><span>Budget</span><span>Actual</span><span class="sr-only">Remove</span></div>
+          <div id="budget-rows" class="budget-rows"></div>
+          <div class="add-category"><select id="category-section" aria-label="Type of new category"><option value="Expenses">Expenses</option><option value="Housing">Housing</option><option value="Bills">Bills</option><option value="School">School</option><option value="Savings">Savings</option><option value="Giving">Giving</option><option value="Debt">Debt</option></select><input id="category-name" type="text" maxlength="35" placeholder="New category" aria-label="New category name"><button id="add-category" type="button" class="add-button">+ Add</button></div>
+          <div class="budget-summary"><div><span>Total planned</span><strong id="planned-total">UGX 0</strong></div><div><span>Remaining from planned income</span><strong id="remaining-total">UGX 0</strong></div></div>
+          <div class="budget-track"><span id="budget-fill"></span></div><p id="budget-message" class="budget-message" aria-live="polite"></p>
+          <button type="button" id="download-budget" class="button button-pink button-full">Download printable budget PDF <span aria-hidden="true">↓</span></button>
+          <small class="privacy-note">Your figures stay in this browser tab. Download your PDF before refreshing or closing the page.</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="involved" class="section involved-section section-anchor">
+      <div class="container">
+        <div class="section-heading"><div><h2>Find a saving circle <em>on campus.</em></h2></div></div>
+        <div class="involved-grid">
+          <article class="involved-feature"><div class="involved-image image-placeholder" role="img" aria-label="Placeholder for a UCU saving group conversation"><span class="placeholder-label">Group photograph</span></div></article>
+          <div class="groups-panel">
+            <h3>Find your circle.</h3>
+            
+            <div id="groups-list" class="groups-list"></div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-top"><a href="#home" class="brand footer-brand"><img class="brand-logo" src="assets/images/smart-pocket-logo.svg" alt="" width="52" height="52"><span>smart pocket<small>A better relationship with money starts here</small></span></a><p>Learn to plan, save and make more confident money decisions.</p><div class="footer-links"><a href="#home">Home</a><a href="#learn">Learn</a><a href="#about">About</a><a href="#involved">Get involved</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Smart Pocket · Student project</span></div></footer>
+
+  <dialog id="guide-dialog" class="guide-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><div><h2 id="dialog-title"></h2></div><button id="close-dialog" type="button" class="dialog-close" aria-label="Close guide">×</button></div><div class="dialog-body" id="dialog-body"></div></dialog>
+</body>
+</html>
